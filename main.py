@@ -1,6 +1,11 @@
 import csv
 from bloom_filter import BloomFilter
 
+'''
+In this file we create an instance of BloomFilter class and use it to check 
+whether an email is present in the list of spam email addresses.
+'''
+
 # number of spam email addresses
 n = 10000
 
