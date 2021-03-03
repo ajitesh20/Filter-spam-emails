@@ -48,4 +48,6 @@ class BloomFilter(object):
         :param m: number of bits in the bit array
         :return: Int
         '''
+
+        # using formula k = m/n * ln(2)
         return math.ceil((m / n) * math.log(2))
